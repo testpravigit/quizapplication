@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-main-page</title>
+    <style type="text/css">
+        body{
+            background-color: rgb(127, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div{
+            background-color: rgb(49, 125, 72);
+            width: 500px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+        .box-login input{
+            padding: 5px 20px;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+     .box-login label{
+        color: rgb(141, 201, 10);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     .quiz{
+        font-size: 50px;
+        font-weight: 900;
+        background-color: chartreuse;
+     }
+        
+
+    </style>
+</head>
+<body>
+    <div class="quiz">QUIZ MANIA</div>
+    <div class="box-login">
+        <form id="form" action="">
+            <table>
+                <h3 id="message">Login to your Account</h3>
+                <tr>
+                    <td>
+                      
+                     <label for="">User Name</label>
+                    </td>
+                    <td>
+
+                        <input id="uname" type="text" name="name" value="" placeholder="ex:abcdef">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      
+                     <label for="Password">Password</label>
+                    </td>
+                    <td>
+
+                        <input id="pass" type="password" name="password" value="" placeholder="ex:aa12@1">
+                        
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                   
+                   <input id="submit" type="submit" name="submit" style="background-color:greenyellow;">
+                    </td>
+                </tr>
+               
+            </table>
+        </form>
+        
+       
+
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
